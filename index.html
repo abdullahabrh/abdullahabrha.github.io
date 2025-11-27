@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – CV & Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* --- Simple, clean styling --- */
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      border-radius: 16px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 4px 0;
+    }
+    .contact {
+      font-size: 0.9rem;
+      text-align: right;
+    }
+    .contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+
+    .section-item {
+      margin-bottom: 16px;
+    }
+    .section-item-title {
+      font-weight: 600;
+    }
+    .section-item-subtitle {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .tags {
+      margin-top: 6px;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #eee;
+      margin-right: 4px;
+      margin-bottom: 4px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .contact {
+        text-align: left;
+      }
+      .container {
+        margin: 16px;
+        padding: 20px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Your Name</h1>
+        <p>Job Title / Student in XYZ</p>
+        <p>Short tagline: “Economics, data & policy – with a focus on …”</p>
+      </div>
+      <div class="contact">
+        <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Vienna, Austria</p>
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> · 
+           <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        A short 3–4 line summary about you: what you study/work on, your interests,
+        and what kind of opportunities you are looking for (e.g. data, finance,
+        economic policy, consulting, etc.).
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="section-item">
+        <div class="section-item-title">Job Title / Role – Company Name</div>
+        <div class="section-item-subtitle">Month YYYY – Present · City, Country</div>
+        <ul>
+          <li>Bullet about what you do and what impact you have.</li>
+          <li>Bullet about tools/skills: Excel, Python, SQL, client data, etc.</li>
+          <li>Bullet about achievements: improved X, automated Y, analysed Z.</li>
+        </ul>
+      </div>
+
+      <div class="section-item">
+        <div class="section-item-title">Previous Role – Company Name</div>
+        <div class="section-item-subtitle">Month YYYY – Month YYYY · City, Country</div>
+        <ul>
+          <li>Short bullet points of key responsibilities and achievements.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="section-item">
+        <div class="section-item-title">MSc Economics, Data & Policy – University Name</div>
+        <div class="section-item-subtitle">2024 – 2026 (expected)</div>
+        <p>Relevant courses: Econometrics, Data Analysis, Corporate Finance, Macroeconomics, etc.</p>
+      </div>
+
+      <div class="section-item">
+        <div class="section-item-title">BA in Something – University Name</div>
+        <div class="section-item-subtitle">2017 – 2021</div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">R</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Excel</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Econometrics</span>
+        <span class="tag">Corporate Finance</span>
+        <span class="tag">Data Visualization</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="section-item">
+        <div class="section-item-title">Project Name – Short Description</div>
+        <div class="section-item-subtitle">
+          <a href="https://github.com/yourusername/project-repo" target="_blank">GitHub repo</a>
+          · Tech: Python, pandas, Power BI
+        </div>
+        <ul>
+          <li>What problem did you solve? What data did you use?</li>
+          <li>What methods? (e.g. regression, forecasting, visualisation)</li>
+        </ul>
+      </div>
+
+      <div class="section-item">
+        <div class="section-item-title">Another Project</div>
+        <div class="section-item-subtitle">
+          <a href="#" target="_blank">Link (if available)</a>
+        </div>
+        <ul>
+          <li>1–2 bullets explaining the project.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        The easiest way to reach me is via email:
+        <a href="mailto:youremail@example.com">youremail@example.com</a>.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
