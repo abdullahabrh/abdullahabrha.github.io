@@ -5,7 +5,6 @@
   <title>Abdullah Abdulrahim – CV & Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* --- Simple, clean styling --- */
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       margin: 0;
@@ -48,7 +47,6 @@
     .contact a:hover {
       text-decoration: underline;
     }
-
     h2 {
       margin-top: 24px;
       margin-bottom: 8px;
@@ -56,7 +54,6 @@
       border-bottom: 1px solid #eee;
       padding-bottom: 4px;
     }
-
     .section-item {
       margin-bottom: 16px;
     }
@@ -84,7 +81,6 @@
       padding-left: 20px;
       margin-top: 4px;
     }
-
     @media (max-width: 600px) {
       .contact {
         text-align: left;
@@ -118,14 +114,14 @@
       <h2>About</h2>
       <p>
         I am a Master’s student in Economics, Data &amp; Policy at Central European University
-        specializing in finance, data science and quantitative methods. I previously completed a BA in
-        Philosophy, Politics &amp; Economics and have several years of experience supporting institutional
-        and corporate banking teams at Raiffeisen Bank International in Vienna.
+        with a strong focus on finance, data analysis and quantitative methods. My academic
+        background combines economics, statistics and econometrics with hands-on coursework
+        in trading, portfolio theory and asset pricing.
       </p>
       <p>
-        I am interested in roles at central banks, international financial institutions, hedge funds and
-        data/analytics teams where I can combine economic thinking with modern data tools, cloud
-        computing and quantitative finance.
+        Alongside my studies I have worked in institutional and corporate banking at
+        Raiffeisen Bank International, supporting Relationship Managers with data, reporting
+        and research for client coverage.
       </p>
     </section>
 
@@ -136,9 +132,9 @@
         <div class="section-item-title">Institutional Clients – Student Support · Raiffeisen Bank International</div>
         <div class="section-item-subtitle">Jul 2024 – May 2025 · Vienna, Austria</div>
         <ul>
-          <li>Maintained and updated institutional client data across internal systems, ensuring accuracy, completeness and alignment with KYC and internal regulatory requirements.</li>
-          <li>Built reports and interactive dashboards in Excel and Power BI to help Relationship Managers monitor key metrics, portfolio exposures and client status.</li>
-          <li>Researched macroeconomic and industry developments to support client discussions with data-driven insights.</li>
+          <li>Maintained and updated institutional client data across internal systems, ensuring accuracy, completeness and compliance with KYC and internal regulatory requirements.</li>
+          <li>Created Excel and Power BI reports and dashboards to help Relationship Managers monitor portfolios and client status.</li>
+          <li>Supported client engagement with macroeconomic and industry research.</li>
         </ul>
       </div>
 
@@ -146,9 +142,9 @@
         <div class="section-item-title">Corporate Customers – Student Support · Raiffeisen Bank International</div>
         <div class="section-item-subtitle">Jun 2021 – Jun 2024 · Vienna, Austria</div>
         <ul>
-          <li>Prepared customized client presentations and financial summaries for corporate customers, ensuring accurate and professional delivery.</li>
-          <li>Organized and updated corporate customer data to improve accessibility and reliability across internal systems.</li>
-          <li>Conducted market and industry research to provide background insights for lending discussions and client meetings.</li>
+          <li>Prepared client presentations and financial summaries for corporate customers.</li>
+          <li>Maintained and organized corporate customer data to improve internal data quality.</li>
+          <li>Researched sectors and markets to support lending and client meetings.</li>
         </ul>
       </div>
     </section>
@@ -159,15 +155,11 @@
       <div class="section-item">
         <div class="section-item-title">MA Economics, Data &amp; Policy · Central European University</div>
         <div class="section-item-subtitle">2024 – 2026 (expected) · Vienna, Austria</div>
-        <p><strong>Focus:</strong> Finance, quantitative methods, data science and economic policy.</p>
+        <p><strong>Focus:</strong> Financial economics, quantitative methods, data science.</p>
         <p>
-          <strong>Relevant coursework in data, analytics and quantitative finance:</strong>
-          Data Analysis 1–4 (Exploration, Regressions, Causal Analysis);
-          Data Analysis 3: Prediction &amp; Intro to Machine Learning;
-          Data Analysis with AI for EDP;
-          Scientific Python;
-          Data Science 1: Setting up Data Science Projects;
-          Data Science 2;
+          <strong>Relevant coursework:</strong>
+          Microeconomics; Data Analysis 1–4; Data Analysis 3: Prediction &amp; Intro to Machine Learning;
+          Data Analysis with AI for EDP; Scientific Python;
           Data Engineering 1: Cloud Computing &amp; Managed AI Solutions;
           Data Engineering 2: Modern Data Platforms;
           Data Visualization &amp; Storytelling;
@@ -213,7 +205,6 @@
         <span class="tag">Trading &amp; Portfolio Theory</span>
         <span class="tag">International Finance</span>
         <span class="tag">Macroeconomic Policy</span>
-        <span class="tag">Cloud Computing</span>
         <span class="tag">Data Visualization</span>
       </div>
     </section>
@@ -222,23 +213,12 @@
       <h2>Projects</h2>
 
       <div class="section-item">
-        <div class="section-item-title">Cloud &amp; Data Engineering – Multi-City Business &amp; Permitting Data Pipeline</div>
-        <div class="section-item-subtitle">ECBS5294 – Introduction to Data Science: Working with Data</div>
-        <ul>
-          <li>Built an end-to-end data integration pipeline combining ~70,000 records from Chicago business licenses (CSV) and NYC building permits (JSON).</li>
-          <li>Loaded both datasets into DuckDB, handled type conversion (strings to dates, numeric and geo coordinates) and addressed real-world data quality issues (missing values, duplicate records, inconsistent schemas).</li>
-          <li>Designed analytical tables to answer policy-relevant questions about business activity, licensing/permit dynamics and geographic patterns across the two cities.</li>
-          <li>Documented the pipeline, data quality checks and analysis opportunities for downstream policy, regulatory and business-intelligence use cases.</li>
-        </ul>
-      </div>
-
-      <div class="section-item">
-        <div class="section-item-title">AWS Cloud Deployment – EC2, Security Groups &amp; Streamlit Demo</div>
+        <div class="section-item-title">AWS Cloud Deployment – EC2 &amp; Streamlit Demo</div>
         <div class="section-item-subtitle">Data Engineering 1: Cloud Computing &amp; Managed AI Solutions</div>
         <ul>
-          <li>Provisioned an ARM-based t4g.nano Ubuntu instance on AWS EC2, configured custom security groups with SSH and HTTP access, and managed key pairs for secure connections.</li>
-          <li>Connected to the instance from GitHub Codespaces via SSH, updated the system and deployed a Streamlit demo app serving on port 80.</li>
-          <li>Registered a subdomain using Route 53 and tested public access over HTTP, then cleaned up cloud resources (Route 53 record, instance, security group and key pair) to control costs.</li>
+          <li>Launched an Ubuntu t4g.nano instance on AWS EC2 and configured security groups for SSH and HTTP access.</li>
+          <li>Connected from GitHub Codespaces using SSH keys, installed system updates and deployed a Streamlit demo app accessible over HTTP.</li>
+          <li>Created and later removed a Route 53 DNS record pointing a subdomain to the instance, and terminated all resources at the end of the exercise.</li>
         </ul>
       </div>
 
@@ -246,19 +226,10 @@
         <div class="section-item-title">ETF Portfolio Optimization – SPY, BND &amp; GLD</div>
         <div class="section-item-subtitle">Trading &amp; Portfolio Theory · Excel / Solver</div>
         <ul>
-          <li>Downloaded monthly price data for equity (SPY), bond (BND) and gold (GLD) ETFs and constructed excess returns over a T-bill risk-free rate.</li>
-          <li>Estimated average excess returns, volatility, Sharpe ratios and the correlation matrix; compared monthly statistics to century-long annual benchmarks.</li>
-          <li>Used Excel Solver to compute the mean-variance optimal risky portfolio and plotted assets, the optimal portfolio and the capital allocation line in the \(E(r)\)–σ plane.</li>
-          <li>Calibrated complete portfolios for investors with different risk aversion parameters and translated weights into actual ETF share allocations for a 100,000 USD equity position.</li>
-        </ul>
-      </div>
-
-      <div class="section-item">
-        <div class="section-item-title">Economic Forecasting &amp; Macro-Financial Analysis</div>
-        <div class="section-item-subtitle">Theory &amp; Practice of Economic Forecasting; International Finance; Macroeconomic Policy</div>
-        <ul>
-          <li>Worked on forecasting assignments for macro indicators (GDP growth, inflation, interest rates), comparing the performance of different leading indicators and model specifications.</li>
-          <li>Applied time-series and econometric techniques to assess nowcasting and forecasting performance, and interpreted results in terms of policy relevance for central banks and finance ministries.</li>
+          <li>Constructed monthly excess returns for SPY, BND and GLD using a T-bill risk-free rate.</li>
+          <li>Calculated average excess returns, volatility, Sharpe ratios and the correlation matrix.</li>
+          <li>Used Excel Solver to derive the optimal risky portfolio and plotted the capital allocation line together with the three ETFs and the risk-free asset.</li>
+          <li>Calibrated optimal complete portfolios for investors with different risk aversion parameters and translated them into ETF share allocations for a 100,000 USD investment.</li>
         </ul>
       </div>
     </section>
