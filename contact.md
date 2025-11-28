@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Contact
+layout: single
+title: <Page Name>
+permalink: /<page-name>/
 ---
 
 # Contact
