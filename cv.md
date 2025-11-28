@@ -1,7 +1,9 @@
 ---
-layout: default
-title: CV
+layout: single
+title: <Page Name>
+permalink: /<page-name>/
 ---
+
 
 # **Curriculum Vitae — Abdullah Abdulrahim**
 
