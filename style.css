@@ -1,0 +1,24 @@
+/* Make all CV links clean, blue, and consistent */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional improvements (looks more professional) */
+.subtitle {
+  font-size: 1.05rem;
+  margin-top: -10px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.top-contact {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
